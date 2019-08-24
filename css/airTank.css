@@ -1,0 +1,101 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#mainSize{
+	width: 400px;
+	height: 583px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;//超过容器隐藏
+}
+
+.bg{
+	width: 400px;
+	height: 583px;
+	position: absolute;
+	background: url(../img/background.jpg);
+	background-size: 400px;
+}
+
+#bg1{
+	top: 0;
+}
+
+#bg2{
+	top: -583px;
+}
+
+#airplane{
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	background: url(../img/space-ship.png);
+	background-size: 60px;
+	left: 170px;
+	top: 480px;
+}
+
+.bullet{
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	background: url(../img/rocket-ship-2.png);
+	background-size: 15px 15px;
+}
+
+.tank{
+	
+}
+
+#tank1{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	background: url(../img/asteroid.png);
+	background-size: 30px 30px;
+}
+#tank2{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	background: url(../img/jupiter.png);
+	background-size: 30px 30px;
+}
+#tank3{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	background: url(../img/mars.png);
+	background-size: 30px 30px;
+}
+#tank4{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	background: url(../img/moon.png);
+	background-size: 30px 30px;
+}
+#tank5{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	background: url(../img/uranus.png);
+	background-size: 30px 30px;
+}
+
+#start{
+	width: 200px;
+	height: 60px;
+	font-size: 20px;
+	color: #fff;
+	font-weight: bold;
+	line-height: 60px;
+	text-align: center;
+	background: rgba(92,84,106,0.6);
+	border-radius: 40%;
+	position: absolute;
+	left: 100px;
+	top: 250px;	
+}
